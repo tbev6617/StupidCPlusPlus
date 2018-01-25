@@ -11,7 +11,8 @@
 int main ()
 {
     Controller app;
-    app.start();
+    //app.start();
+    app.doArrayStuff(8);
     return 0;
 }
 

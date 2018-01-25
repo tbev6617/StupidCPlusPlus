@@ -21,6 +21,8 @@ public:
     //anyone can see this
     Controller();
     void start();
+    void doArrayStuff(int size);
+    void printArray(int array[], int size);
 };
 
 #endif /* Controller_hpp */
