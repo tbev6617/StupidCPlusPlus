@@ -17,9 +17,9 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for (int index = 0; index < 10; index++)
+    for (int index = 1; index <= 10; index++)
     {
-        cout <<"this loop has executed " << index + 1 << " times" << endl;
+        cout <<"this loop has executed " << index << " times" << endl;
     }
 }
 
