@@ -8,11 +8,12 @@
 
 #include "Controller.hpp"
 
-using namespace std;
 
 Controller :: Controller()
 {
-    
+    this -> specialNumber = 789790;
+    this -> favoriteWord = "spork";
+    useVector();
 }
 
 void Controller :: start()
@@ -39,4 +40,14 @@ void Controller :: printArray(int array[], int size)
     {
         cout << array[i] << endl;
     }
+}
+
+void Controller :: useVector()
+{
+    vector<int> numbers;
+    
+    numbers.push_back(specialNumber);
+    cout << "the size of my vector is " << numbers.size() << endl;
+    numbers.clear();
+    cout << "the size of my vector is " << numbers.size() << endl;
 }

@@ -12,7 +12,7 @@ int main ()
 {
     Controller app;
     //app.start();
-    app.doArrayStuff(8);
+    //app.doArrayStuff(8);
     return 0;
 }
 

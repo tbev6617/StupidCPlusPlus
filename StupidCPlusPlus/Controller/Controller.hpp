@@ -10,11 +10,18 @@
 #define Controller_hpp
 
 #include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
 
 class Controller
 {
 private:
     //Data members and helper methods
+    int specialNumber;
+    string favoriteWord;
+    int * numberPointer;
 protected:
     //Things that need to only be used by subclasses
 public:
@@ -23,6 +30,7 @@ public:
     void start();
     void doArrayStuff(int size);
     void printArray(int array[], int size);
+    void useVector();
 };
 
 #endif /* Controller_hpp */
